@@ -5,7 +5,7 @@ files:
     destination: /var/www/html/
 hooks:  
   BeforeInstall:
-    - location: /opt/codedeploy-agent/deployment-root/9df2280b-b7d5-4fc1-9f43-7162c7c492ce/d-K0NZC01S0/deployment-archive/install_dependencies
+    - location: /install_dependencies
       timeout: 300
       runas: root
     - location: /start_server
